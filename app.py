@@ -51,7 +51,7 @@ class LitGradio(ServeGradio):
     ]
 
     def __init__(self, sam_type="vit_h"):
-        super().__init__()
+        super().__init__(port="https://1c146086e7c51e1c0d.gradio.live")
         self.ready = False
         self.sam_type = sam_type
 
